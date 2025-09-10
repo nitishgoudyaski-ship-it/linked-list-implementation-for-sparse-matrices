@@ -58,13 +58,13 @@ public:
 };
 
 int main() {
-    SparseMatrix sm(4, 5);
+    SparseMatrix sm(5, 4);  // Changed to 5 rows and 4 columns
 
-    // Adding non-zero elements
-    sm.addElement(0, 1, 10);
-    sm.addElement(1, 3, 20);
-    sm.addElement(2, 2, 30);
-    sm.addElement(3, 0, 40);
+    // New non-zero elements at different positions with new values
+    sm.addElement(0, 0, 7);
+    sm.addElement(1, 2, -5);
+    sm.addElement(2, 3, 12);
+    sm.addElement(4, 1, 9);
 
     cout << "Sparse Matrix in Triplet Form:" << endl;
     sm.displayTriplet();
