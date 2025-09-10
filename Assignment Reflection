@@ -1,15 +1,15 @@
-How long did you spend on this assignment?  
-I spent about 3 hours working on this assignment, including reading about sparse matrix linked list representations, writing the code, and debugging my implementation.  
+How many hours do you think you spent on this assignment?
+I have worked around 3 hours goes into completing this assignment through reading, coding, and debugging your code on representations involving sparse matrix linked lists.
 
-Based on your effort, what letter grade would you say you earned?  
-I would give myself an A, because I studied the topic carefully, implemented the linked list, and tested the code on multiple cases.  
+Using the effort you put in, which grade letter do you think you earned?
+I would give myself an A, as I studied the topic well, applied the linked list, and ran the program on multiple examples.
 
-Based on your solution, what letter grade would you say you earned?  
-I believe I earned an A, since the program compiles successfully, runs without errors, and displays both the triplet form and full matrix form of the sparse matrix.  
+According to your response, what letter grade would you assign yourself?
+I believe that I received an A, as the program compiles successfully, runs without any issues, and prints out the triplet form and full matrix form of the sparse matrix.
 
-Provide a summary of what doesn't work in your solution, along with an explanation of how you attempted to solve the problem and where you feel you struggled.  
-My solution correctly stores and displays sparse matrices using a linked list. 
-However, one limitation is that the linked list traversal for displaying the full matrix is O(m×n), which can be inefficient for very large matrices. 
-Another issue is that elements are inserted at the end of the list without sorting, so the output assumes that elements are added in row-major order. 
-I initially struggled with keeping the linked list traversal aligned with the full matrix display, but I solved this by carefully checking row and column indices during display.  
+Write a summary of what goes wrong in your solution, and an explanation of how you attempted to fix the problem and where you suspect you got stuck.
+My solution correctly stores and displays sparse matrices using a linked list.
+One downside, however, is that the linked list traversal to print out the full matrix is O(m×n), which is less than desirable for large matrices.
+Another issue is that the elements are appended to the end of the list and not sorted, so the output anticipates elements to be inserted in row-major order.
+I initially struggled with maintaining synchronization between traversing the linked list and showing the whole matrix, but I solved this by redouble-checking row and column indices while showing.
 
